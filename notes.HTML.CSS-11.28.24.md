@@ -58,9 +58,9 @@
 
 1. When writing HTML we wrap everything in tags to tell the browser what is what
 2. Every tag is wrapped up in triangle brackets (**< >**) and they tell the browser that this is a tag and not the actual content itself
-3. Just like how books have a front and back cover, tags act as the cover for the content.
+3. Just like how books have a front and back cover, tags act as the cover for the content
     1. The **opening tag** (**< >**) works as the front cover and the **closing tag** (**</ >**) works as the back cover
-4. When you have an opening and closing tag, all together, that gives you something called an **element**.
+4. When you have an opening and closing tag, all together, that gives you something called an **element**
 
 #### Recap on tags
 
@@ -68,3 +68,38 @@
 2. Closing tags include a forward slash (**</ >**)
 3. Everything from the opening and closing tag is called an element
 4. Elements define our content to the browser
+
+## Basic file structure of HTML
+
+### `<!DOCTYPE html>`
+
+1. The first thing you'll see at the top of every document is **`<!DOCTYPE html>`**
+    1. It tells the browser that this is an HTML5 document
+
+### `<html>`
+
+1. Once we've told the browser that it's looking at an HTML5 document, we need to tell it that we're starting to write HTML by using the tag, **`<html>`**
+    1. You can have CSS and Javascript inside an HTML document as well
+    2. `<html>` acts as the "root" of our document because **everything** lives inside our `<html>` element
+
+### The `<head>`
+
+1. Nothing here is visible to the visitor
+2. The `<head>` is the essential information
+    1. The `<head>` has some meta tags that you can put in it like the author, a description of the site, and more
+3. It's more of a "brain" than a "head" because a head you can see, but the brain is what you can't see that's controlling everything from the shadows...
+
+### `<title>`
+
+1. Inside the head of the document is where we have our `<title>`
+2. Since it's in the `<head>`, it won't be visible, but it shows up in the tab of the browser and in search results
+
+#### Write out the code for what you've learned so far
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Muscle Memory</title>
+        </head>
+    </html>
+
